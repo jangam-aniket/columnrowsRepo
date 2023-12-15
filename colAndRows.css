@@ -1,9 +1,9 @@
 .container-fluid {
-  height: 500px;
+  height: 100px;
 }
 
 .row {
-  height: 500px;
+  height: 100px;
 }
 
 .box1 {
@@ -12,7 +12,8 @@
   align-items: center;
   background-color: yellow;
   color: white;
-  /* height: 100px; */
+  height: 100px;
+  width: 100px;
 }
 
 .box2 {
@@ -21,7 +22,8 @@
   align-items: center;
   background-color: orange;
   color: white;
-  /* height: 100px; */
+  height: 100px;
+  width: 100px;
 }
 
 .box3 {
@@ -30,5 +32,15 @@
   align-items: center;
   background-color: blue;
   color: white;
-  /* height: 100px; */
+  height: 100px;
+  width: 100px;
+}
+.box4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  color: white;
+  height: 100px;
+  width: 100px;
 }
